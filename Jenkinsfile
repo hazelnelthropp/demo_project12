@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/champ2024/demo_project12.git'
+                git 'https://github.com/hazelnelthropp/demo_project12.git'
             }
         }
         stage('Deploy') {

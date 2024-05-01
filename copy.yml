@@ -13,8 +13,8 @@
     - name: Add firewall rules
       ufw:
         rule: allow
-        port:80
-        proto:tcp
+        port: 80
+        proto: tcp
     - name: Deploy static website
       copy:
         src: index.html

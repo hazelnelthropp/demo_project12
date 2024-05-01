@@ -1,4 +1,3 @@
----
 - hosts: webservers
   become: True
   tasks:
@@ -19,4 +18,3 @@
       copy:
         src: index.html
         dest: /var/www/html/
-  ---
